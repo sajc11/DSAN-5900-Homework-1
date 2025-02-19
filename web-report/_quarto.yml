@@ -16,3 +16,7 @@ website:
         text: Code
       - href: data/
         text: Data
+
+execute:
+  after:
+    - touch docs/.nojekyll  # Ensure .nojekyll is created after render
