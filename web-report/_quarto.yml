@@ -3,7 +3,7 @@ project:
   output-dir: docs  # GitHub Pages will use this as the deployment folder
 
 website:
-  title: "My Quarto Website"
+  title: "DSAN 5900 HW1 Website"
   navbar:
     left:
       - href: index.qmd
