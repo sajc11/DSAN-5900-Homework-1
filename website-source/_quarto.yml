@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Homework 1"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Introduction
+      - href: eda.qmd
+        text: EDA
+      - href: conclusion.qmd
+        text: Conclusion
+      - href: https://github.com/sajc11/DSAN-5900-Homework-1
+        text: Code
+  page-footer:
+    left: |
+      Content © 2024 by Isfar Baset & Alivia Castor <br>
+      Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Made with [R](https://www.r-project.org) and [Quarto](https://quarto.org)<br>
+      [View source on GitHub](https://github.com/anly503/lab-2.1)
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
