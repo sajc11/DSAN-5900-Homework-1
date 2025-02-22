@@ -8,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Introduction
-      - href: eda.qmd
-        text: EDA
+      - href: findings.qmd
+        text: Findings
       - href: conclusion.qmd
         text: Conclusion
       - href: https://github.com/sajc11/DSAN-5900-Homework-1
