@@ -2,9 +2,9 @@
   {
     "objectID": "conclusion.html",
     "href": "conclusion.html",
-    "title": "Conclusion",
+    "title": "✅ What Matters Most?",
     "section": "",
-    "text": "Conclusion"
+    "text": "Based on our findings, here’s what we know:\n\nGPA is important, but not the sole deciding factor.\nTest scores help, but students with lower scores can still get in.\nWork experience adds value, but it’s not required.\nVolunteer experience appears to have a strong positive impact.\n\n\n\nIf you were an admissions officer, here’s what you might consider: - Encourage holistic applications. Look beyond just numbers. - Consider balancing academic strength with extracurriculars. - Continue valuing diverse student backgrounds.\n\n\n\nAdmissions is more than just scores, it’s about the whole person. Future applicants should focus not just on grades, but also on gaining meaningful experiences.\n\n\n\nGood luck!"
   },
   {
     "objectID": "eda.html",
@@ -16,8 +16,99 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Homework 1",
+    "title": "Solving the College Admissions Puzzle",
     "section": "",
-    "text": "Homework 1"
+    "text": "Solving the College Admissions Puzzle\nEach year thousands of students apply to universities, but only a select few get admitted. As the Dean of Admissions at a prestigious university, what makes them stand out to you? Are GPAs and test scores enough, or do other factors play a role?\nTo begin, let’s take a look at the big picture: who gets admitted and who doesn’t?\n\n\n\n\nIn the following sections, we will explore the factors that truly influence admissions and uncover unexpected insights that challenge common assumptions."
+  },
+  {
+    "objectID": "findings.html",
+    "href": "findings.html",
+    "title": "What Factors Drive Admissions?",
+    "section": "",
+    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?\n\n\n\n\n\n\n\nTest scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.\n\n\n\n\n\n\n\nStudents with some work experience tend to have a slight advantage. However, it’s not a strict requirement.\n\n\n\n\n\n\n\nHigher volunteer involvement correlates with a higher acceptance rate, suggesting that universities value well-rounded applicants."
+  },
+  {
+    "objectID": "findings.html#gpa-distribution",
+    "href": "findings.html#gpa-distribution",
+    "title": "Findings",
+    "section": "",
+    "text": "GPA plays a crucial role in admissions. Higher GPAs generally lead to higher chances of acceptance.\n\n\n\n\nThe histogram above highlights the GPA distribution of applicants. We observe that most admitted students tend to have higher GPAs."
+  },
+  {
+    "objectID": "findings.html#test-score-distribution",
+    "href": "findings.html#test-score-distribution",
+    "title": "Findings",
+    "section": "",
+    "text": "Test scores also play a role but aren’t the sole determinant of admission.\n\n\n\n\nWhile a higher test score helps, we notice that some students with mid-range scores were still admitted."
+  },
+  {
+    "objectID": "findings.html#work-experience-and-admission",
+    "href": "findings.html#work-experience-and-admission",
+    "title": "Findings",
+    "section": "",
+    "text": "Does having more work experience improve your chances?\n\n\n\n\nThe bar chart above suggests that students with some work experience are slightly more likely to be admitted, though it is not a strict requirement."
+  },
+  {
+    "objectID": "findings.html#volunteer-experience-and-admission",
+    "href": "findings.html#volunteer-experience-and-admission",
+    "title": "Findings",
+    "section": "",
+    "text": "Does giving back to the community improve admission chances?\n\n\n\n\nThis chart indicates that higher levels of volunteer involvement correlate with higher acceptance rates, suggesting that holistic applicants have an advantage."
+  },
+  {
+    "objectID": "conclusion.html#key-takeaways",
+    "href": "conclusion.html#key-takeaways",
+    "title": "Conclusion",
+    "section": "",
+    "text": "From our analysis, we found that the strongest applicants often have a high GPA, decent test scores, some work experience, and active volunteer involvement. However, there is no single formula for success—each applicant is evaluated holistically.\n\n\n\nGPA: Higher GPA = Higher chance of admission.\nTest Scores: Important, but not the sole factor.\nWork Experience: Adds value but not mandatory.\nVolunteer Work: Positively influences decisions."
+  },
+  {
+    "objectID": "conclusion.html#final-thoughts",
+    "href": "conclusion.html#final-thoughts",
+    "title": "Conclusion",
+    "section": "",
+    "text": "Students looking to improve their admission chances should prioritize academic performance, gain relevant experience, and demonstrate community involvement."
+  },
+  {
+    "objectID": "findings.html#does-gpa-define-success",
+    "href": "findings.html#does-gpa-define-success",
+    "title": "What Factors Drive Admissions?",
+    "section": "",
+    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?"
+  },
+  {
+    "objectID": "findings.html#how-important-are-test-scores",
+    "href": "findings.html#how-important-are-test-scores",
+    "title": "What Factors Drive Admissions?",
+    "section": "",
+    "text": "Test scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken."
+  },
+  {
+    "objectID": "findings.html#does-work-experience-give-an-edge",
+    "href": "findings.html#does-work-experience-give-an-edge",
+    "title": "What Factors Drive Admissions?",
+    "section": "",
+    "text": "Students with some work experience tend to have a slight advantage. However, it’s not a strict requirement."
+  },
+  {
+    "objectID": "findings.html#does-volunteering-make-a-difference",
+    "href": "findings.html#does-volunteering-make-a-difference",
+    "title": "What Factors Drive Admissions?",
+    "section": "",
+    "text": "Higher volunteer involvement correlates with a higher acceptance rate, suggesting that universities value well-rounded applicants."
+  },
+  {
+    "objectID": "conclusion.html#actionable-insights-for-admissions-officers",
+    "href": "conclusion.html#actionable-insights-for-admissions-officers",
+    "title": "✅ What Matters Most?",
+    "section": "",
+    "text": "If you were an admissions officer, here’s what you might consider: - Encourage holistic applications. Look beyond just numbers. - Consider balancing academic strength with extracurriculars. - Continue valuing diverse student backgrounds."
+  },
+  {
+    "objectID": "conclusion.html#the-final-takeaway",
+    "href": "conclusion.html#the-final-takeaway",
+    "title": "✅ What Matters Most?",
+    "section": "",
+    "text": "Admissions is more than just scores, it’s about the whole person. Future applicants should focus not just on grades, but also on gaining meaningful experiences.\n\n\n\nGood luck!"
   }
 ]

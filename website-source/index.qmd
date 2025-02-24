@@ -1,1 +1,11 @@
-# Homework 1
+# Solving the College Admissions Puzzle
+
+Each year thousands of students apply to universities, but only a select few get admitted. As the **Dean of Admissions** at a prestigious university, what makes them stand out to you? Are GPAs and test scores enough, or do other factors play a role?
+
+To begin, let's take a look at the **big picture**: who gets admitted and who doesn’t?
+
+<div class="interactive-plot">
+<iframe src="plots/admission_overview.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+In the following sections, we will explore the **factors that truly influence admissions** and uncover unexpected insights that challenge common assumptions.

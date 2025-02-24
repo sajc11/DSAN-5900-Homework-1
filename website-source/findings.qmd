@@ -1,0 +1,34 @@
+# What Factors Drive Admissions?
+
+## **📌 Does GPA Define Success?**
+
+<div class="interactive-plot">
+<iframe src="plots/gpa_distribution.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+While a **high GPA** certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?
+
+## **📌 How Important Are Test Scores?**
+
+<div class="interactive-plot">
+<iframe src="plots/test_score_distribution.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+Test scores are **important but not everything**. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.
+
+## **📌 Does Work Experience Give an Edge?**
+
+<div class="interactive-plot">
+<iframe src="plots/work_exp_vs_admission.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+Students with **some work experience** tend to have a slight advantage. However, it's not a strict requirement.
+
+## **📌 Does Volunteering Make a Difference?**
+
+<div class="interactive-plot">
+<iframe src="plots/volunteer_vs_admission.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+Higher volunteer involvement **correlates with a higher acceptance rate**, suggesting that universities value well-rounded applicants.
+
