@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import plotly.express as px
+import plotly.graph_objects as go
 
 # Set paths
 data_path = "../data/clean/SummerStudentAdmissions_clean.csv" 
@@ -57,12 +58,12 @@ plt.close()
 
 # **5. Volunteer Experience Impact**
 plt.figure(figsize=(8, 5))
-sns.countplot(x=df['VolunteerLevel'], hue=df['Decision'])
-plt.title("Volunteer Level and Admission Decision")
-plt.xlabel("Volunteer Level")
-plt.ylabel("Count")
-plt.legend(title="Decision")
-plt.savefig(os.path.join(plots_path, "volunteer_vs_admission.png"))
+volunteer_matrix = df.pivot_table(index='VolunteerLevel', columns='Decision', aggfunc='size', fill_value=0)
+sns.heatmap(volunteer_matrix, annot=True, fmt="d", cmap="Blues")
+plt.title("Volunteer Level and Admission Decision (Matrix View)")
+plt.xlabel("Admission Decision")
+plt.ylabel("Volunteer Level")
+plt.savefig(os.path.join(plots_path, "volunteer_vs_admission_matrix.png"))
 plt.close()
 
 # Set up interactive plots using Plotly
@@ -92,10 +93,33 @@ fig4 = px.bar(df.groupby("Decision")["WorkExp"].mean().reset_index(), x="Decisio
 fig4.write_html(os.path.join(plots_path, "work_exp_vs_admission.html"))
 
 # **5. Volunteer Experience Impact**
-fig5 = px.histogram(df, x="VolunteerLevel", color="Decision", barmode="group",
-                    title="Volunteer Level and Admission Decision",
-                    labels={'VolunteerLevel': 'Volunteer Level', 'count': 'Number of Students'})
-fig5.write_html(os.path.join(plots_path, "volunteer_vs_admission.html"))
+fig5 = px.imshow(volunteer_matrix.values,
+                 labels=dict(x="Admission Decision", y="Volunteer Level", color="Count"),
+                 x=volunteer_matrix.columns,
+                 y=volunteer_matrix.index,
+                 color_continuous_scale="Blues",
+                 title="Volunteer Level and Admission Decision (Matrix View)")
+fig5.write_html(os.path.join(plots_path, "volunteer_vs_admission_matrix.html"))
+
+# Prepare data for the stacked bar chart
+volunteer_counts = df.groupby(['VolunteerLevel', 'Decision']).size().reset_index(name='Count')
+
+# Convert data into a pivot table format for Plotly
+volunteer_pivot = volunteer_counts.pivot(index='VolunteerLevel', columns='Decision', values='Count').fillna(0)
+
+# Create the stacked bar chart using Plotly
+fig6 = px.bar(
+    volunteer_pivot,
+    x=volunteer_pivot.index,  # Volunteer Level on X-axis
+    y=volunteer_pivot.columns,  # Decision categories on Y-axis
+    title="Volunteer Level and Admission Decision",
+    labels={'value': 'Number of Students', 'VolunteerLevel': 'Volunteer Level'},
+    barmode="stack"  # Stacking bars to show proportions
+)
+
+# Save the interactive stacked bar chart
+fig6.write_html(os.path.join(plots_path, "volunteer_vs_admission_stacked.html"))
+
 
 ### --- END: Data Story Conclusion --- ###
 

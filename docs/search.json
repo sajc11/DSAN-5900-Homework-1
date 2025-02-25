@@ -25,7 +25,7 @@
     "href": "findings.html",
     "title": "What Factors Drive Admissions?",
     "section": "",
-    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?\n\n\n\n\n\n\n\nTest scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.\n\n\n\n\n\n\n\nStudents with some work experience tend to have a slight advantage. However, it’s not a strict requirement.\n\n\n\n\n\n\n\nHigher volunteer involvement correlates with a higher acceptance rate, suggesting that universities value well-rounded applicants."
+    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?\n\n\n\n\n\n\n\nTest scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.\n\n\n\n\n\n\n\nStudents with some work experience tend to have a slight advantage. However, it’s not a strict requirement.\n\n\n\n\n\n\n\n\n\n\nAdmission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels, suggesting that volunteerism alone may not be the key factor in admission decisions.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates with volunteer levels, indicating that while volunteer experience may have some impact, it does not guarantee admission.\n\nVolunteer Level Impact:\n\nHigher volunteer levels (e.g., 4 and 5) still have students in all decision categories, meaning that while volunteering might help, other factors likely play a significant role in admissions.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students."
   },
   {
     "objectID": "findings.html#gpa-distribution",
@@ -95,7 +95,7 @@
     "href": "findings.html#does-volunteering-make-a-difference",
     "title": "What Factors Drive Admissions?",
     "section": "",
-    "text": "Higher volunteer involvement correlates with a higher acceptance rate, suggesting that universities value well-rounded applicants."
+    "text": "Admission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels, suggesting that volunteerism alone may not be the key factor in admission decisions.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates with volunteer levels, indicating that while volunteer experience may have some impact, it does not guarantee admission.\n\nVolunteer Level Impact:\n\nHigher volunteer levels (e.g., 4 and 5) still have students in all decision categories, meaning that while volunteering might help, other factors likely play a significant role in admissions.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students."
   },
   {
     "objectID": "conclusion.html#actionable-insights-for-admissions-officers",
