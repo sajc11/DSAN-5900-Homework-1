@@ -23,9 +23,9 @@
   {
     "objectID": "findings.html",
     "href": "findings.html",
-    "title": "What Factors Drive Admissions?",
+    "title": "📊 What Factors Drive Admissions?",
     "section": "",
-    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?\n\n\n\n\n\n\n\nTest scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.\n\n\n\n\n\n\n\nStudents with some work experience tend to have a slight advantage. However, it’s not a strict requirement.\n\n\n\n\n\n\n\n\n\n\nAdmission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels, suggesting that volunteerism alone may not be the key factor in admission decisions.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates with volunteer levels, indicating that while volunteer experience may have some impact, it does not guarantee admission.\n\nVolunteer Level Impact:\n\nHigher volunteer levels (e.g., 4 and 5) still have students in all decision categories, meaning that while volunteering might help, other factors likely play a significant role in admissions.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students."
+    "text": "A higher GPA generally increases the chance of admission, but it is not the sole factor.\n\nSome students with lower GPAs were still admitted, while some with higher GPAs were waitlisted or declined.\n\nThis suggests that other factors beyond GPA (test scores, extracurriculars, essays) influence admission decisions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigher test scores correlate with more admissions, meaning that strong scores improve chances.\n\nHowever, some students with mid-range test scores were still accepted, showing that admissions consider a holistic profile.\n\nWaitlisted students have comparable test scores to admitted students, implying that test scores alone do not determine acceptance.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWork experience does not seem to be a primary admission factor—students with and without work experience were admitted.\n\nWaitlisted students have significantly more work experience than other groups, suggesting that experience might help when an applicant is on the borderline.\n\nAdmitted and declined students have similar average work experience, indicating that experience alone does not guarantee admission.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdmission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels.\n\nThis suggests that volunteerism alone may not be a key admission factor but could contribute to a well-rounded application.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates across volunteer levels.\n\nThis indicates that higher volunteer levels do not guarantee admission.\n\nVolunteer Level Impact:\n\nEven at higher volunteer levels (4 and 5), students exist in all decision categories, meaning that while it may help, other factors like GPA, test scores, and recommendations play a larger role.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students.\n\n\n\n\n\n\n\n✔ Strong academics (GPA + Test Scores) improve admission chances, but are not the only deciding factors.\n✔ Work experience and volunteer levels help, but do not guarantee admission.\n✔ A well-rounded application with strong extracurriculars, essays, and recommendations is likely a key factor in final decisions."
   },
   {
     "objectID": "findings.html#gpa-distribution",
@@ -72,30 +72,30 @@
   {
     "objectID": "findings.html#does-gpa-define-success",
     "href": "findings.html#does-gpa-define-success",
-    "title": "What Factors Drive Admissions?",
+    "title": "📊 What Factors Drive Admissions?",
     "section": "",
-    "text": "While a high GPA certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?"
+    "text": "A higher GPA generally increases the chance of admission, but it is not the sole factor.\n\nSome students with lower GPAs were still admitted, while some with higher GPAs were waitlisted or declined.\n\nThis suggests that other factors beyond GPA (test scores, extracurriculars, essays) influence admission decisions."
   },
   {
     "objectID": "findings.html#how-important-are-test-scores",
     "href": "findings.html#how-important-are-test-scores",
-    "title": "What Factors Drive Admissions?",
+    "title": "📊 What Factors Drive Admissions?",
     "section": "",
-    "text": "Test scores are important but not everything. Some admitted students had mid-range scores, suggesting that a holistic approach is taken."
+    "text": "Higher test scores correlate with more admissions, meaning that strong scores improve chances.\n\nHowever, some students with mid-range test scores were still accepted, showing that admissions consider a holistic profile.\n\nWaitlisted students have comparable test scores to admitted students, implying that test scores alone do not determine acceptance."
   },
   {
     "objectID": "findings.html#does-work-experience-give-an-edge",
     "href": "findings.html#does-work-experience-give-an-edge",
-    "title": "What Factors Drive Admissions?",
+    "title": "📊 What Factors Drive Admissions?",
     "section": "",
-    "text": "Students with some work experience tend to have a slight advantage. However, it’s not a strict requirement."
+    "text": "Work experience does not seem to be a primary admission factor—students with and without work experience were admitted.\n\nWaitlisted students have significantly more work experience than other groups, suggesting that experience might help when an applicant is on the borderline.\n\nAdmitted and declined students have similar average work experience, indicating that experience alone does not guarantee admission."
   },
   {
     "objectID": "findings.html#does-volunteering-make-a-difference",
     "href": "findings.html#does-volunteering-make-a-difference",
-    "title": "What Factors Drive Admissions?",
+    "title": "📊 What Factors Drive Admissions?",
     "section": "",
-    "text": "Admission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels, suggesting that volunteerism alone may not be the key factor in admission decisions.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates with volunteer levels, indicating that while volunteer experience may have some impact, it does not guarantee admission.\n\nVolunteer Level Impact:\n\nHigher volunteer levels (e.g., 4 and 5) still have students in all decision categories, meaning that while volunteering might help, other factors likely play a significant role in admissions.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students."
+    "text": "Admission Trends:\n\nThe number of students admitted (blue bars) appears fairly consistent across different volunteer levels.\n\nThis suggests that volunteerism alone may not be a key admission factor but could contribute to a well-rounded application.\n\nDeclines and Waitlists:\n\nThe number of declined (red) and waitlisted (purple) students fluctuates across volunteer levels.\n\nThis indicates that higher volunteer levels do not guarantee admission.\n\nVolunteer Level Impact:\n\nEven at higher volunteer levels (4 and 5), students exist in all decision categories, meaning that while it may help, other factors like GPA, test scores, and recommendations play a larger role.\n\nAnomalies:\n\nThere’s a small “Unknown” category (green) at level 4, which could indicate missing or ambiguous decision data for some students."
   },
   {
     "objectID": "conclusion.html#actionable-insights-for-admissions-officers",
@@ -110,5 +110,12 @@
     "title": "✅ What Matters Most?",
     "section": "",
     "text": "Admissions is more than just scores, it’s about the whole person. Future applicants should focus not just on grades, but also on gaining meaningful experiences.\n\n\n\nGood luck!"
+  },
+  {
+    "objectID": "findings.html#final-takeaway-what-matters-most",
+    "href": "findings.html#final-takeaway-what-matters-most",
+    "title": "📊 What Factors Drive Admissions?",
+    "section": "",
+    "text": "✔ Strong academics (GPA + Test Scores) improve admission chances, but are not the only deciding factors.\n✔ Work experience and volunteer levels help, but do not guarantee admission.\n✔ A well-rounded application with strong extracurriculars, essays, and recommendations is likely a key factor in final decisions."
   }
 ]
