@@ -3,7 +3,7 @@
 ## **📌 Does GPA Define Success?**
 
 <div class="interactive-plot">
-<iframe src="plots/gpa_distribution.html" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="plots/gpa_distribution.html" width="100%" height="600px" style="border:none;"></iframe>
 </div>
 
 While a **high GPA** certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?
