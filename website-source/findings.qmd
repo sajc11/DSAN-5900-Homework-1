@@ -1,12 +1,21 @@
-# What Factors Drive Admissions?
+# 📊 What Factors Drive Admissions?
 
 ## **📌 Does GPA Define Success?**
 
 <div class="interactive-plot">
-<iframe src="plots/gpa_distribution.html" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="plots/gpa_distribution.html" width="100%" height="600px" style="border:none;"></iframe>
 </div>
 
-While a **high GPA** certainly helps, some students with lower GPAs were still accepted. Could other factors compensate?
+<div class="interactive-plot">
+<iframe src="plots/gpa_vs_decision.html" width="100%" height="600px" style="border:none;"></iframe>
+</div>
+
+### 🔍 **Insights from the Charts**
+- A **higher GPA** generally increases the chance of admission, but **it is not the sole factor**.  
+- Some students with **lower GPAs were still admitted**, while some with **higher GPAs were waitlisted or declined**.  
+- This suggests that **other factors beyond GPA (test scores, extracurriculars, essays) influence admission decisions**.  
+
+---
 
 ## **📌 How Important Are Test Scores?**
 
@@ -14,7 +23,16 @@ While a **high GPA** certainly helps, some students with lower GPAs were still a
 <iframe src="plots/test_score_distribution.html" width="100%" height="800px" style="border:none;"></iframe>
 </div>
 
-Test scores are **important but not everything**. Some admitted students had mid-range scores, suggesting that a holistic approach is taken.
+<div class="interactive-plot">
+<iframe src="plots/test_score_vs_decision.html" width="100%" height="800px" style="border:none;"></iframe>
+</div>
+
+### 🔍 **Insights from the Charts**
+- **Higher test scores correlate with more admissions**, meaning that strong scores improve chances.  
+- However, some **students with mid-range test scores were still accepted**, showing that admissions consider a holistic profile.  
+- **Waitlisted students have comparable test scores to admitted students**, implying that test scores alone do not determine acceptance.  
+
+---
 
 ## **📌 Does Work Experience Give an Edge?**
 
@@ -22,13 +40,37 @@ Test scores are **important but not everything**. Some admitted students had mid
 <iframe src="plots/work_exp_vs_admission.html" width="100%" height="800px" style="border:none;"></iframe>
 </div>
 
-Students with **some work experience** tend to have a slight advantage. However, it's not a strict requirement.
+### 🔍 **Insights from the Chart**
+- **Work experience does not seem to be a primary admission factor**—students with and without work experience were admitted.  
+- **Waitlisted students have significantly more work experience** than other groups, suggesting that experience might help when an applicant is on the borderline.  
+- Admitted and declined students have similar average work experience, indicating that **experience alone does not guarantee admission**.  
+
+---
 
 ## **📌 Does Volunteering Make a Difference?**
 
 <div class="interactive-plot">
-<iframe src="plots/volunteer_vs_admission.html" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="plots/volunteer_vs_admission_stacked.html" width="100%" height="800px" style="border:none;"></iframe>
 </div>
 
-Higher volunteer involvement **correlates with a higher acceptance rate**, suggesting that universities value well-rounded applicants.
+### 🔍 **Insights from the Chart**
+1. **Admission Trends:**  
+   - The number of students **admitted (blue bars) appears fairly consistent** across different volunteer levels.  
+   - This suggests that **volunteerism alone may not be a key admission factor** but could contribute to a well-rounded application.  
 
+2. **Declines and Waitlists:**  
+   - The number of **declined (red) and waitlisted (purple) students fluctuates** across volunteer levels.  
+   - This indicates that **higher volunteer levels do not guarantee admission**.  
+
+3. **Volunteer Level Impact:**  
+   - Even at **higher volunteer levels (4 and 5), students exist in all decision categories**, meaning that while it may help, **other factors like GPA, test scores, and recommendations play a larger role**.  
+
+4. **Anomalies:**  
+   - There's a small **"Unknown" category (green) at level 4**, which could indicate **missing or ambiguous decision data for some students**.  
+
+---
+
+## **📌 Final Takeaway: What Matters Most?**
+✔ **Strong academics (GPA + Test Scores) improve admission chances, but are not the only deciding factors.**  
+✔ **Work experience and volunteer levels help, but do not guarantee admission.**  
+✔ **A well-rounded application with strong extracurriculars, essays, and recommendations is likely a key factor in final decisions.**  
